@@ -1,172 +1,277 @@
 <!DOCTYPE html>
-<html>
-<title>AndreaAgostini</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="Facebook" href="https://www.facebook.com/andrea.agostini.393/w3css/4/w3.css">
-<link rel="Twitter" href="https://twitter.com/Andrea74938305/w3css/4/w3.css">
-<link rel="Instagram" href="https://www.instagram.com/andrea.agostini.393/?hl=it/w3css/4/w3.css">
-<link rel="LinkedIn" href="https://twitter.com/Andrea74938305/?hl=it/w3css/4/w3.css">
-<style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-  *{
-    text-decoration: none;
-  }
-</style>
-<body class="w3-light-grey">
+<html class="no-js" lang="en">
 
-<!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
 
-  <!-- The Grid -->
-  <div class="w3-row-padding">
-  
-    <!-- Left Column -->
-    <div class="w3-third">
-    
-      <div class="w3-white w3-text-grey w3-card-4">
-        <div class="w3-display-container">
-          <img src="andreaagostini.jpg" style="width:100%" alt="Avatar">
-          <div class="w3-display-bottomleft w3-container w3-text-grey">    
-          </div>
-        </div>
-        <div class="w3-container">
-        <h2>Andrea Agostini</h2>
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Game Programming</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Bientina(PI), Tuscany, Italy</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>andreaagostini1998@gmail.com</p>
-          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>3931311122</p>
-          <hr>
-
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
-          <p>Unity</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:85%">85%</div>
-          </div>
-		  <p>Unreal</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:45%">40%</div>
-          </div>
-		  <p>Game Maker</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
-          </div>
-
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
-          <p>Italian</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
-          </div>
-          <p>English</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:40%"></div>
-          </div>
-          <br>
-        </div>
-      </div><br>
-
-    <!-- End Left Column -->
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
 
-    <!-- Right Column -->
-    <div class="w3-twothird">
-    
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-info fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>About</h2>
-        <p>Born in Barga(LU, Tuscany, Italy, in 1998.</p>
-      </div>
-      
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Stage as a systems analyst</b></h5>
-		  <h5 class="w3-opacity"><b> </b>Istituto comprensivo MK Gandhi, Pontedera(PI), Tuscany, Italy</h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>14 April 2016 - 17 June 2016</h6>        
-          <hr>
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Andrea Agostini</h1>
+            <h2>Game programmer</h2>
+            <a href="https://drive.google.com/uc?export=download&id=19aiCJ7QbiaG9n43Ba5pRqcQr69V6kEEg" class="btn-rounded-white">Download Resume(Italian)</a>
         </div>
-		<div class="w3-container">
-          <h5 class="w3-opacity"><b>Volunteer</b></h5>
-		  <h5 class="w3-opacity"><b> </b>Pinkriot, Pisa(PI), Tuscany, Italy</h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>1 February 2018 - Present</h6>        
-          <hr>
-        </div>
-      </div>
+        <!-- End #lead-content -->
 
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>TheSign Comics & Arts Academy</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2018 - Present</h6>
-          <p>Game programming</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>ITIS Guglielmo Marconi</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2011 - 2017</h6>
-          <p>Certification in computer technology</p>
-          <p>65/100</p>
-          <hr>
-        </div>
-      </div>
-	  
-	  <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-lightbulb-o fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Projects</h2>
-        <div class="w3-row-padding">
-        <div class="w3-third w3-container w3-margin-bottom">
-        <a href="https://globalgamejam.org/2019/games/syngenes"><img src="syngenes.png" alt="SYNGENES" style="width:90%" class="w3-hover-opacity"></a>
-        <div class="w3-container w3-white">
-        <h5 class="w3-opacity"><b>SYNGENES</b></h5>
-        <p>Syngenes (“parents” in greek ) is a game that talks about a genderless child that receive mistreatments by their own parents. Escape from a place where you’ve been hurted through puzzles and platforms to find a better home instead of the house that fate gave you.</p>
-        </div>
-     </div>
-	 
-	 <div class="w3-third w3-container w3-margin-bottom">
-     <a href="https://globalgamejam.org/2020/games/phantapair-0"><img src="phantapair.png" alt="phantapair" style="width:90%" class="w3-hover-opacity"></a>
-     <div class="w3-container w3-white">
-     <h5 class="w3-opacity"><b>PhantaPair</b></h5>
-     <p>An abandoned castle, a perfect place for a ghost! But you are a skeptical guy, you don't believe in ghost, magic and other devilrly stuff, there were a good offer for this castle and you catch it. The first day was cool, the second was cold, the third was terryfing! All your stuff were trasformed into magical objects and destroyed by ghosts. A brave ghost decide to help you to repair all, you can do it by yourself but you don't want to offend the ghost, don't you? You win, and can return home, when you have repaired all your stuff. To do it you need to place the pieces in order to rebuild the object. One player controls the movement of the pieces and the other one controls the rotation. Be quick, the time is running, and your home is calling...</p>
-     </div>
-	 
-	 <!-- <div class="w3-third w3-container w3-margin-bottom"> -->
-     <!-- <a href="https://internetfestival.itch.io/a-back-of-gold-if-game-jam-rulez-2019"><img src="abackofgold.png" alt="abackofgold" style="width:90%" class="w3-hover-opacity"></a> -->
-     <!-- <div class="w3-container w3-white"> -->
-     <!-- <h5 class="w3-opacity"><b>A Back of Gold</b></h5> -->
-     <!-- <p>A Back of Gold is a strategic party game where players decide and share movement rules.The goal is to steal coins from other players for points</p> -->
-     <!-- </div> -->
-	 
+        <div id="lead-overlay"></div>
 
-    <!-- End Right Column -->
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
     </div>
-    
-  <!-- End Grid -->
-  </div>
-  
-  <!-- End Page Container -->
-</div>
-  
-<footer class="w3-container w3-teal w3-center w3-margin-top">
-  <p>Find me on social media</p> 
- 
-  <a href="https://www.facebook.com/andrea.agostini.393">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  </a>  
-  
-  <a href="https://www.instagram.com/andrea.agostini.393/?hl=it" style="text-decoration=none">
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-  </a>
+    <!-- End #lead -->
 
-  <a href="https://twitter.com/Andrea74938305" style="text-decoration=none">
-      <i class="fa fa-twitter w3-hover-opacity"></i>
-  </a>
-  
-  <a href="https://www.linkedin.com/in/andrea-agostini-717812164/" style="text-decoration=none">
-      <i class="fa fa-linkedin w3-hover-opacity"></i>
-  </a>   
-  
-</footer>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        I am Andrea Agostini and programmer. I am crazy for coffee.I develop videogames for fun.I have developed a lot of videogames for various people. 
+						I started programming at the age of 14 where i usually had a fascination for videogames. 
+						I have a lot of mentors which i learnt from because they are the one that made me who i am today. I usually do a lot of things at my free time which makes me in love with myself. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
 
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="14 April 2016 - 17 June 2016">
+                <h3>Riccardo Cervelli</h3>
+                <h4>Systems analyst</h4>
+                <p>
+                    - Computer maintenance 
+					- Take inventory
+                </p>
+            </div>
+
+            <div data-date="1 February 2018 - 12 May 2020">
+                <h3>Daniele Serra</h3>
+                <h4>Volunteer</h4>
+                <p>
+					- Organize events 
+					- Promote human and civil rights are recognized, promoted and guaranteed without discrimination based on sexual orientation. 
+					- Sale of material
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>ITIS Guglielmo Marconi</h3>
+            <span class="education-date">Sept 2011 - July 2017</span>
+            <h4>Certification in computer technology</h4>
+            <p>
+				Grade: 65/100
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>TheSign Comics & Arts Academy</h3>
+            <span class="education-date">Nov 2018 - Present</span>
+            <h4>Game programming</h4>
+            <ul>
+                <!-- <li> -->
+                    <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
+                <!-- </li> -->
+                <!-- <li> -->
+                    <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
+                <!-- </li> -->
+                <!-- <li> -->
+                    <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
+                <!-- </li> -->
+            </ul>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/syngenes.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info" style="margin-left: 355px">
+                        <h3>SYNGENES</h3>
+                        <p>
+							Syngenes (“parents” in greek ) is a game that talks about a genderless child that receive mistreatments by their own parents. 
+							Escape from a place where you’ve been hurted through puzzles and platforms to find a better home instead of the house that fate gave you.
+                        </p>
+                        <a href="https://globalgamejam.org/2019/games/syngenes">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/phantapair.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info" style="margin-left: 355px">
+                        <h3>PhantaPair</h3>
+                        <p>
+							An abandoned castle, a perfect place for a ghost! But you are a skeptical guy, you don't believe in ghost, magic and other devilrly stuff, there were a good offer for this castle and you catch it. 
+							The first day was cool, the second was cold, the third was terryfing! All your stuff were trasformed into magical objects and destroyed by ghosts. 
+                        </p>
+                        <a href="https://globalgamejam.org/2020/games/phantapair-0">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+				
+				<div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/abackofgold.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info" style="margin-left: 355px">
+                        <h3>A Back of Gold</h3>
+                        <p>
+							A Back of Gold is a strategic party game where players decide and share movement rules.
+							The goal is to steal coins from other players for points
+                        </p>
+                        <a href="https://internetfestival.itch.io/a-back-of-gold-if-game-jam-rulez-2019">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>C#</li>
+            <li>C++</li>
+			<li>Unreal engine</li>
+            <li>Unity</li>
+            <li>Game maker</li>
+            <li>Game AI</li>
+			<li>SQL</li>
+            <li>Problem solving</li>
+            <li>Team working</li>
+            <li>HTML</li>
+			<li>PHP</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/mzbjrnlg">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2020 Andrea
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/Ago251" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <!-- <li> -->
+                            <!-- <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a> -->
+                        <!-- </li> -->
+                        <li>
+                            <a href="https://www.linkedin.com/in/andrea-agostini-717812164/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/andrea.agostini.393/?hl=it" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/Andrea74938305" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
 </body>
+
 </html>
