@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Portfolio</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -15,512 +15,555 @@
 </head>
 
 <body>
-    <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
+<div id="mobile-menu-open" class="shadow-large">
+    <i class="fa fa-bars" aria-hidden="true"></i>
+</div>
+<!-- End #mobile-menu-toggle -->
+<header>
+    <div id="mobile-menu-close">
+        <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
     </div>
-    <!-- End #mobile-menu-toggle -->
-    <header>
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
-        </div>
-        <ul id="menu" class="shadow">
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#experience">Experience</a>
-            </li>
-            <li>
-                <a href="#education">Education</a>
-            </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
-    </header>
-    <!-- End header -->
+    <ul id="menu" class="shadow">
+        <li>
+            <a href="#about">About</a>
+        </li>
+        <li>
+            <a href="#experience">Experience</a>
+        </li>
+        <li>
+            <a href="#education">Education</a>
+        </li>
+        <li>
+            <a href="#projects">Projects</a>
+        </li>
+        <li>
+            <a href="#skills">Skills</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+    </ul>
+</header>
+<!-- End header -->
 
-    <div id="lead">
-        <div id="lead-content">
-			<img src="images/Job_profile.png" width = "150"/>
-            <h1>Andrea Agostini</h1>
-            <h2>Game programmer</h2>
-			<a href="https://docs.google.com/document/d/1C-Ov4I8iarrMRjb-L49w9ACQqmMrtPo5qIK7FfWHArs/edit?usp=sharing" target="_white" rel="noopener noreferrer" class="btn-rounded-white">Resume</a>
-        </div>
-        <!-- End #lead-content -->
+<div id="lead">
+    <div id="lead-content">
+        <img src="images/Job_profile.png" width="150"/>
+        <h1>Andrea Agostini</h1>
+        <h2>Game programmer</h2>
+        <a href="https://docs.google.com/document/d/1C-Ov4I8iarrMRjb-L49w9ACQqmMrtPo5qIK7FfWHArs/edit?usp=sharing"
+           target="_white" rel="noopener noreferrer" class="btn-rounded-white">Resume</a>
+    </div>
+    <!-- End #lead-content -->
 
-        <div id="lead-overlay"></div>
+    <div id="lead-overlay"></div>
 
-        <div id="lead-down">
+    <div id="lead-down">
             <span>
                 <i class="fa fa-chevron-down" aria-hidden="true"></i>
             </span>
-        </div>
-        <!-- End #lead-down -->
     </div>
-    <!-- End #lead -->
+    <!-- End #lead-down -->
+</div>
+<!-- End #lead -->
 
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                        From the beginning of my education, I pursued the goal of becoming a game programmer, choosing focused paths such as a technical institute in computer science and a specialized school in game programming. <br> <br>
-                        Over time, I realized that I wanted to specialize in AI game programming, which led me to take a specialized course with a senior AI game programmer. This experience allowed me to deepen my understanding of the role and connect with industry professionals, including the AI game programmer for Little Nightmares 2. <br><br>
-                        However, before this course I had already gained experience in AI game programming through various projects, including a turn-based game developed during my studies where I created the enemy AI, and another project that is very close to my heart called Lost in Space, a survival horror game where I designed the AI controlling the zombies. <br><br>
-                        I would like to conclude with my life philosophy, which is "Learn, Live, and Enjoy." This approach underscores my belief in the continuous pursuit of knowledge, active engagement with life experiences, and integrating enjoyment into everything I do. It is this philosophy that fuels my determination to excel in the dynamic and ever-evolving field of game development.
-                    </p>
-                </div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h2 class="heading">About Me</h2>
             </div>
-        </div>
-    </div>
-    <!-- End #about -->
-
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-
-            <div data-date="15 September 2021 - Current">
-                <h3>Witapp</h3>
-                <h4>Unity programmer</h4>
+            <div class="col-md-8">
                 <p>
-                    - Developed a server using Mirror to manage rooms where users could talk and interact with a 3D model <br>
-                    - Designed and implemented UI components to enhance usability and maintainability <br>
-                    - Applied the MVVM architecture for structured and scalable development <br>
-
-                </p>
-            </div>
-            <div data-date="March 2020 -March 2021">
-                <h3>Unity Programmer (Freelance)</h3>
-                <p>
-                    Developed Lost in the Space, focusing on: <br>
-                       - Implementing zombie AI using Behavior Trees <br>
-                       - Creating a saving system to manage different rooms and player progress <br>
-                       - Designing and implementing an inventory system inspired by the classic Resident Evil 4 <br>
+                    From the beginning of my education, I pursued the goal of becoming a game programmer, choosing
+                    focused paths such as a technical institute in computer science and a specialized school in game
+                    programming. <br> <br>
+                    Over time, I realized that I wanted to specialize in AI game programming, which led me to take a
+                    specialized course with a senior AI game programmer. This experience allowed me to deepen my
+                    understanding of the role and connect with industry professionals, including the AI game programmer
+                    for Little Nightmares 2. <br><br>
+                    However, before this course I had already gained experience in AI game programming through various
+                    projects, including a turn-based game developed during my studies where I created the enemy AI, and
+                    another project that is very close to my heart called Lost in Space, a survival horror game where I
+                    designed the AI controlling the zombies. <br><br>
+                    I would like to conclude with my life philosophy, which is "Learn, Live, and Enjoy." This approach
+                    underscores my belief in the continuous pursuit of knowledge, active engagement with life
+                    experiences, and integrating enjoyment into everything I do. It is this philosophy that fuels my
+                    determination to excel in the dynamic and ever-evolving field of game development.
                 </p>
             </div>
         </div>
     </div>
-    <!-- End #experience -->
+</div>
+<!-- End #about -->
 
-    <div id="education">
-        <h2 class="heading">Education</h2>
+<div id="experience" class="background-alt">
+    <h2 class="heading">Experience</h2>
+    <div id="experience-timeline">
 
-	<div class="education-block">
-            <h3>Digital Bros Academy</h3>
-            <span class="education-date">Mar 2024 - Jul 2024</span>
-            <h4>AI game programming</h4>
-            <ul>
-                <!-- <li> -->
-                    <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
-                <!-- </li> -->
-                <!-- <li> -->
-                    <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
-                <!-- </li> -->
-                <!-- <li> -->
-                    <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
-                <!-- </li> -->
-            </ul>
+        <div data-date="15 September 2021 - Current">
+            <h3>Witapp</h3>
+            <h4>Unity programmer</h4>
+            <p>
+                - Developed a server using Mirror to manage rooms where users could talk and interact with a 3D model
+                <br>
+                - Designed and implemented UI components to enhance usability and maintainability <br>
+                - Applied the MVVM architecture for structured and scalable development <br>
+
+            </p>
         </div>
-
-        <div class="education-block">
-            <h3>Unipegaso</h3>
-            <span class="education-date">Aug 2023 - Jul 2024</span>
-            <h4>Computer science</h4>
-            <ul>
-                <!-- <li> -->
-                    <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
-                <!-- </li> -->
-                <!-- <li> -->
-                    <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
-                <!-- </li> -->
-                <!-- <li> -->
-                    <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
-                <!-- </li> -->
-            </ul>
-        </div>
-
-        <div class="education-block">
-            <h3>Udemy</h3>
-            <span class="education-date">Dec 2023 - Jan 2024</span>
-            <h4>Unreal Engine 5</h4>
-            <ul>
-                <!-- <li> -->
-                    <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
-                <!-- </li> -->
-                <!-- <li> -->
-                    <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
-                <!-- </li> -->
-                <!-- <li> -->
-                    <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
-                <!-- </li> -->
-            </ul>
-        </div>
-
-
-        <div class="education-block">
-            <h3>My english school</h3>
-            <span class="education-date">Jan 2022 - Oct 2023</span>
-            <h4>English course</h4>
-            <ul>
-                <!-- <li> -->
-                    <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
-                <!-- </li> -->
-                <!-- <li> -->
-                    <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
-                <!-- </li> -->
-                <!-- <li> -->
-                    <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
-                <!-- </li> -->
-            </ul>
-        </div>
-
-         <div class="education-block">
-            <h3>TheSign Comics & Arts Academy</h3>
-            <span class="education-date">Nov 2018 - Sept 2021</span>
-            <h4>Game programming</h4>
-            <ul>
-                <!-- <li> -->
-                    <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
-                <!-- </li> -->
-                <!-- <li> -->
-                    <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
-                <!-- </li> -->
-                <!-- <li> -->
-                    <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
-                <!-- </li> -->
-            </ul>
-        </div>
-
-        <div class="education-block">
-            <h3>ITIS Guglielmo Marconi</h3>
-            <span class="education-date">Sept 2012 - July 2017</span>
-            <h4>Certification in computer technology</h4>
-            <!-- <p> -->
-				<!-- Grade: 65/100 -->
-            <!-- </p> -->
-        </div>
-        <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
-
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Published</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/LostInSpace.png" width="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Lost in space</h3>
-                        <p>
-                            <span style="margin-right: 20px;">Engine: Unity</span>
-                            <span>Works: UI, AI and save system</span><br>
-                            Description: Project inspired by the old resident evil.
-                        </p>
-                        <a href="https://teamrevival.itch.io/lost-in-space">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/verima.png" width="300" />
-                    </div>
-                    <div class="project-info">
-                        <h3>Verima</h3>
-                        <p>
-                            <span style="margin-right: 20px;">Engine: Unity</span>
-                            <span>Works: UI, Architecture, Tools, Network and XR experience</span><br>
-                            Engine: Unity
-                            Description: This is my current ongoing project, developed with Witapp.
-
-                        </p>
-                        <a href="https://verima.it/en/">View Project</a>
-                    </div>
-                </div>
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/VampireNights.png" width="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Vampire nights</h3>
-                        <p>
-                            <span style="margin-right: 20px;">Engine: Unity</span>
-                            <span>Works: AI, core loop, tools for designers and UI</span><br>
-                            It is a turn-based strategy, where a vampire will have to reconquer territories conquered by the church.
-                        </p>
-                        <a href="https://ago251.itch.io/vampire-nights">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-
-                <h2 class="heading">AI</h2>
-                <div class="container">
-                    <div class="row">
-                        <div class="project shadow-large">
-                            <div class="project-image">
-                                <img src="images/steering_behaviours.png" width="300" />
-                            </div>
-                            <div class="project-info">
-                                <h3>Steering behaviours</h3>
-                                <p>
-                                    <span style="margin-right: 20px;">Engine: Unreal Engine 5</span>
-                                    <span>Works: AI and UI</span><br>
-                                    This project implements a steering behavior system to simulate the movement of boids.<br>
-                                </p>
-                                <a href="https://github.com/Ago251/Boids-Unreal"  href="https://github.com/LucaP998/Dialogue" class="project-button" target="_blank">View Project</a>
-                            </div>
-                            <!-- End .project-info -->
-                        </div>
-                        <div class="project shadow-large">
-                            <div class="project-image">
-                                <img src="images/minimax.jpg" width="300" />
-                            </div>
-                            <div class="project-info">
-                                <h3>Minimax</h3>
-                                <p>
-                                    <span style="margin-right: 20px;">Engine: Unreal Engine 5</span>
-                                    <span>Works: AI and UI</span><br>
-                                    It's a demonstration to show how Minimax can be used in the Tic Tac Toe game
-                                </p>
-                                <a href="https://github.com/Ago251/Minimax">View Project</a>
-                            </div>
-                            <!-- End .project-info -->
-                        </div>
-                        <div class="project shadow-large">
-                            <div class="project-image">
-                                <img src="images/n_grams.png" width="300" />
-                            </div>
-                            <div class="project-info">
-                                <h3>N-Grams</h3>
-                                <p>
-                                    <span style="margin-right: 20px;">Engine: Unity</span>
-                                    <span>Works: AI and UI</span><br>
-                                    This project i plements an AI to play the game of Rock, Paper, Scissors using N-Gram analysis. <br>
-                                </p>
-                                <a href="https://github.com/Ago251/N_Grams">View Project</a>
-                            </div>
-                            <!-- End .project-info -->
-                        </div>
-                        <div class="project shadow-large">
-                            <div class="project-image">
-                                <img src="images/StealthGame_Cover.png" width="300" />
-                            </div>
-                            <!-- End .project-image -->
-                            <div class="project-info">
-                                <h3>StealthGame</h3>
-                                <p>
-                                    <span style="margin-right: 20px;">Engine: Unreal Engine 4</span>
-                                    <span>Works: C++, Blueprint, Animator and AI</span><br>
-                                    An UE4 (version 4.25) project made for studying Stealth mechanics.
-                                </p>
-                                <a href="https://github.com/Ago251/StealthGame_Unreal">View Project</a>
-                            </div>
-                            <!-- End .project-info -->
-                        </div>
-                        
-                <!-- End .project -->
-                <h2 class="heading">Game jams</h2>
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/PolmoneBlu.png" width="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>The blue lung</h3>
-                        <p>
-                            In this game you will be a whale, which will have to survive the pollution of the sea.
-                            Note: This game is based on scientific data.
-                        </p>
-                        <a href="https://drive.google.com/drive/folders/1Ae27PalmoYGq2MkTVsLK41GaKz_XwoZO?usp=sharing">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/syngenes.png" width="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>SYNGENES</h3>
-                        <p>
-                            <span style="margin-right: 20px;">Engine: Game maker</span>
-                            <span>Works: Core loop</span><br>
-                            This was my first group experience developing a video game.
-                        </p>
-                        <a href="https://globalgamejam.org/2019/games/syngenes">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/abackofgold.png" width="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>A Back of Gold</h3>
-                        <p>
-                            <span style="margin-right: 20px;">Engine: Unity</span>
-                            <span>Works: UI</span><br>
-                            A Back of Gold is a strategic party game where players decide and share movement rules.
-                            The goal is to steal coins from other players for points
-                        </p>
-                        <a href="https://internetfestival.itch.io/a-back-of-gold-if-game-jam-rulez-2019">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/phantapair.png" width="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>PhantaPair</h3>
-                        <p>
-                            <span style="margin-right: 20px;">Engine: Unity</span>
-                            <span>Works: Core loop</span><br>
-                            Created during a game jam with the theme "Repair".
-                        </p>
-                        <a href="https://globalgamejam.org/2020/games/phantapair-0">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <h2 class="heading">Network</h2>
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/network_test.png" width="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Network Test</h3>
-                        <p>
-                            <span style="margin-right: 20px;">Engine: Unreal Engine 4</span>
-                            <span>Works: C++</span><br>
-                            Based on Unreal's shooter example, with mechanics to test networking tools.
-                        </p>
-                        <a href="https://github.com/Ago251/Network_UE4">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <h2 class="heading">Tools</h2>
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/dialogueSystem.png" width="300" />
-                    </div>
-
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Dialogue system</h3>
-                        <p>
-                            This tool is used to create dialogues to use in game, with the possibility of having multiple characters with different facial expressions/emotions.
-                        </p>
-                        <a  href="https://github.com/LucaP998/Dialogue" class="project-button" target="_blank">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-            </div>
+        <div data-date="March 2020 -March 2021">
+            <h3>Unity Programmer (Freelance)</h3>
+            <p>
+                Developed Lost in the Space, focusing on: <br>
+                - Implementing zombie AI using Behavior Trees <br>
+                - Creating a saving system to manage different rooms and player progress <br>
+                - Designing and implementing an inventory system inspired by the classic Resident Evil 4 <br>
+            </p>
         </div>
     </div>
-    <!-- End #projects -->
+</div>
+<!-- End #experience -->
 
-    <div id="skills">
-        <h2 class="heading">Skills</h2>
+<div id="education">
+    <h2 class="heading">Education</h2>
+
+    <div class="education-block">
+        <h3>Digital Bros Academy</h3>
+        <span class="education-date">Mar 2024 - Jul 2024</span>
+        <h4>AI game programming</h4>
         <ul>
-            <li>JavaScript</li>
-            <li>Java</li>
-            <li>C#</li>
-            <li>C++</li>
-			<li>Unreal engine</li>
-            <li>Unity</li>
-            <li>Game maker</li>
-            <li>Game AI</li>
-			<li>Hololens</li>
-			<li>Magic Leap</li>
-			<li>Swift</li>
-			<li>Mixed Reality Toolkit</li>
-			<li>SQL</li>
-            <li>Problem solving</li>
-            <li>Team working</li>
-            <li>HTML</li>
-			<li>PHP</li>
-			<li>Assembly</li>
-			<li>Networking</li>
-			<li>Arduino</li>
-			<li>Database</li>
-			<li>Android</li>
-			<li>Problem solving</li>
+            <!-- <li> -->
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
+            <!-- </li> -->
+            <!-- <li> -->
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
+            <!-- </li> -->
+            <!-- <li> -->
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
+            <!-- </li> -->
         </ul>
     </div>
-    <!-- End #skills -->
 
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/mzbjrnlg">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
+    <div class="education-block">
+        <h3>Unipegaso</h3>
+        <span class="education-date">Aug 2023 - Jul 2024</span>
+        <h4>Computer science</h4>
+        <ul>
+            <!-- <li> -->
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
+            <!-- </li> -->
+            <!-- <li> -->
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
+            <!-- </li> -->
+            <!-- <li> -->
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
+            <!-- </li> -->
+        </ul>
     </div>
-    <!-- End #contact -->
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; 2020 Andrea Agostini
-                    </p>
+    <div class="education-block">
+        <h3>Udemy</h3>
+        <span class="education-date">Dec 2023 - Jan 2024</span>
+        <h4>Unreal Engine 5</h4>
+        <ul>
+            <!-- <li> -->
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
+            <!-- </li> -->
+            <!-- <li> -->
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
+            <!-- </li> -->
+            <!-- <li> -->
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
+            <!-- </li> -->
+        </ul>
+    </div>
+
+
+    <div class="education-block">
+        <h3>My english school</h3>
+        <span class="education-date">Jan 2022 - Oct 2023</span>
+        <h4>English course</h4>
+        <ul>
+            <!-- <li> -->
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
+            <!-- </li> -->
+            <!-- <li> -->
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
+            <!-- </li> -->
+            <!-- <li> -->
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
+            <!-- </li> -->
+        </ul>
+    </div>
+
+    <div class="education-block">
+        <h3>TheSign Comics & Arts Academy</h3>
+        <span class="education-date">Nov 2018 - Sept 2021</span>
+        <h4>Game programming</h4>
+        <ul>
+            <!-- <li> -->
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
+            <!-- </li> -->
+            <!-- <li> -->
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
+            <!-- </li> -->
+            <!-- <li> -->
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
+            <!-- </li> -->
+        </ul>
+    </div>
+
+    <div class="education-block">
+        <h3>ITIS Guglielmo Marconi</h3>
+        <span class="education-date">Sept 2012 - July 2017</span>
+        <h4>Certification in computer technology</h4>
+        <!-- <p> -->
+        <!-- Grade: 65/100 -->
+        <!-- </p> -->
+    </div>
+    <!-- End .education-block -->
+</div>
+<!-- End #education -->
+
+<div id="projects" class="background-alt">
+    <h2 class="heading">Published</h2>
+    <div class="container">
+        <div class="row">
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/verima.png" width="300"/>
                 </div>
-                <div class="col-sm-2 top">
+                <div class="project-info">
+                    <h3>Verima</h3>
+                    <p>
+                        <span style="margin-right: 20px;">Engine: Unity</span>
+                        <span>Works: UI, Architecture, Tools, Network and XR experience</span><br>
+                        Engine: Unity
+                        Description: This is my current ongoing project, developed with Witapp.
+
+                    </p>
+                    <a href="https://verima.it/en/">View Project</a>
+                </div>
+            </div>
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/LostInSpace.png" width="300"/>
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Lost in space</h3>
+                    <p>
+                        <span style="margin-right: 20px;">Engine: Unity</span>
+                        <span>Works: UI, AI and save system</span><br>
+                        Description: Project inspired by the old resident evil.
+                    </p>
+                    <a href="https://teamrevival.itch.io/lost-in-space">View Project</a>
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/VampireNights.png" width="300"/>
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Vampire nights</h3>
+                    <p>
+                        <span style="margin-right: 20px;">Engine: Unity</span>
+                        <span>Works: AI, core loop, tools for designers and UI</span><br>
+                        It is a turn-based strategy, where a vampire will have to reconquer territories conquered by the
+                        church.
+                    </p>
+                    <a href="https://ago251.itch.io/vampire-nights">View Project</a>
+                </div>
+                <!-- End .project-info -->
+            </div>
+
+            <h2 class="heading">AI</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="images/steering_behaviours.png" width="300"/>
+                        </div>
+                        <div class="project-info">
+                            <h3>Steering behaviours</h3>
+                            <p>
+                                <span style="margin-right: 20px;">Engine: Unreal Engine 5</span>
+                                <span>Works: AI and UI</span><br>
+                                This project implements a steering behavior system to simulate the movement of
+                                boids.<br>
+                            </p>
+                            <a href="https://github.com/Ago251/Boids-Unreal" href="https://github.com/LucaP998/Dialogue"
+                               class="project-button" target="_blank">View Project</a>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="images/minimax.jpg" width="300"/>
+                        </div>
+                        <div class="project-info">
+                            <h3>Minimax</h3>
+                            <p>
+                                <span style="margin-right: 20px;">Engine: Unreal Engine 5</span>
+                                <span>Works: AI and UI</span><br>
+                                It's a demonstration to show how Minimax can be used in the Tic Tac Toe game
+                            </p>
+                            <a href="https://github.com/Ago251/Minimax">View Project</a>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="images/n_grams.png" width="300"/>
+                        </div>
+                        <div class="project-info">
+                            <h3>N-Grams</h3>
+                            <p>
+                                <span style="margin-right: 20px;">Engine: Unity</span>
+                                <span>Works: AI and UI</span><br>
+                                This project i plements an AI to play the game of Rock, Paper, Scissors using N-Gram
+                                analysis. <br>
+                            </p>
+                            <a href="https://github.com/Ago251/N_Grams">View Project</a>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="images/StealthGame_Cover.png" width="300"/>
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>StealthGame</h3>
+                            <p>
+                                <span style="margin-right: 20px;">Engine: Unreal Engine 4</span>
+                                <span>Works: C++, Blueprint, Animator and AI</span><br>
+                                An UE4 (version 4.25) project made for studying Stealth mechanics.
+                            </p>
+                            <a href="https://github.com/Ago251/StealthGame_Unreal">View Project</a>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+
+                    <!-- End .project -->
+                    <h2 class="heading">Game jams</h2>
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="images/SuperScary.png" width="300"/>
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>Super Scary</h3>
+                            <p>
+                                <span style="margin-right: 20px;">Engine: Unreal Engine 5</span>
+                                <span>Works: interaction item, sequencer and UI</span><br>
+                                A fun game that pokes fun at bad horror experiences.
+                            </p>
+                            <a href="https://globalgamejam.org/games/2024/superscary-7?fbclid=PAAaaj8M9KUBwzNTARO5vvHAmzCmkxQZ99xU3Y7jT9Q2IZ-xG0N3N2GjAzkyQ">View
+                                Project</a>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="images/PolmoneBlu.png" width="300"/>
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>The blue lung</h3>
+                            <p>
+                                <span style="margin-right: 20px;">Engine: Unity</span>
+                                <span>Works: Gameplay and UI</span><br>
+                                Project dedicated to promoting the preservation of the planet.
+                            </p>
+                            <a href="https://drive.google.com/drive/folders/1Ae27PalmoYGq2MkTVsLK41GaKz_XwoZO?usp=sharing">View
+                                Project</a>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <!-- End .project -->
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="images/syngenes.png" width="300"/>
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>SYNGENES</h3>
+                            <p>
+                                <span style="margin-right: 20px;">Engine: Game maker</span>
+                                <span>Works: Gameplay features</span><br>
+                                This was my first group experience developing a video game.
+                            </p>
+                            <a href="https://globalgamejam.org/2019/games/syngenes">View Project</a>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <!-- End .project -->
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="images/abackofgold.png" width="300"/>
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>A Back of Gold</h3>
+                            <p>
+                                <span style="margin-right: 20px;">Engine: Unity</span>
+                                <span>Works: UI</span><br>
+                                A Back of Gold is a strategic party game where players decide and share movement rules.
+                                The goal is to steal coins from other players for points
+                            </p>
+                            <a href="https://internetfestival.itch.io/a-back-of-gold-if-game-jam-rulez-2019">View
+                                Project</a>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <!-- End .project -->
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="images/phantapair.png" width="300"/>
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>PhantaPair</h3>
+                            <p>
+                                <span style="margin-right: 20px;">Engine: Unity</span>
+                                <span>Works: Gameplay features</span><br>
+                                Created during a game jam with the theme "Repair".
+                            </p>
+                            <a href="https://globalgamejam.org/2020/games/phantapair-0">View Project</a>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <h2 class="heading">Network</h2>
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="images/network_test.png" width="300"/>
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>Network Test</h3>
+                            <p>
+                                <span style="margin-right: 20px;">Engine: Unreal Engine 4</span>
+                                <span>Works: C++</span><br>
+                                Based on Unreal's shooter example, with mechanics to test networking tools.
+                            </p>
+                            <a href="https://github.com/Ago251/Network_UE4">View Project</a>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <h2 class="heading">Tools</h2>
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="images/dialogueSystem.png" width="300"/>
+                        </div>
+
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>Dialogue system</h3>
+                            <p>
+                                This tool is used to create dialogues to use in game, with the possibility of having
+                                multiple characters with different facial expressions/emotions.
+                            </p>
+                            <a href="https://github.com/LucaP998/Dialogue" class="project-button" target="_blank">View
+                                Project</a>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End #projects -->
+
+        <div id="skills">
+            <h2 class="heading">Skills</h2>
+            <ul>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>C#</li>
+                <li>C++</li>
+                <li>Unreal engine</li>
+                <li>Unity</li>
+                <li>Game maker</li>
+                <li>Game AI</li>
+                <li>Hololens</li>
+                <li>Magic Leap</li>
+                <li>Swift</li>
+                <li>Mixed Reality Toolkit</li>
+                <li>SQL</li>
+                <li>Problem solving</li>
+                <li>Team working</li>
+                <li>HTML</li>
+                <li>PHP</li>
+                <li>Assembly</li>
+                <li>Networking</li>
+                <li>Arduino</li>
+                <li>Database</li>
+                <li>Android</li>
+                <li>Problem solving</li>
+            </ul>
+        </div>
+        <!-- End #skills -->
+
+        <div id="contact">
+            <h2>Get in Touch</h2>
+            <div id="contact-form">
+                <form method="POST" action="https://formspree.io/mzbjrnlg">
+                    <input type="hidden" name="_subject" value="Contact request from personal website"/>
+                    <input type="email" name="_replyto" placeholder="Your email" required>
+                    <textarea name="message" placeholder="Your message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+            <!-- End #contact-form -->
+        </div>
+        <!-- End #contact -->
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5 copyright">
+                        <p>
+                            Copyright &copy; 2020 Andrea Agostini
+                        </p>
+                    </div>
+                    <div class="col-sm-2 top">
                     <span id="to-top">
                         <i class="fa fa-chevron-up" aria-hidden="true"></i>
                     </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/Ago251" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <!-- <li> -->
+                    </div>
+                    <div class="col-sm-5 social">
+                        <ul>
+                            <li>
+                                <a href="https://github.com/Ago251" target="_blank"><i class="fa fa-github"
+                                                                                       aria-hidden="true"></i></a>
+                            </li>
+                            <!-- <li> -->
                             <!-- <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a> -->
-                        <!-- </li> -->
-                        <li>
-                            <a href="https://www.linkedin.com/in/andrea-agostini-717812164/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/andrea.agostini.393/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/Andrea74938305" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
+                            <!-- </li> -->
+                            <li>
+                                <a href="https://www.linkedin.com/in/andrea-agostini-717812164/" target="_blank"><i
+                                        class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/andrea.agostini.393/" target="_blank"><i
+                                        class="fa fa-facebook" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/Andrea74938305" target="_blank"><i class="fa fa-twitter"
+                                                                                                aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
-    <!-- End footer -->
+        </footer>
+        <!-- End footer -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/scripts.min.js"></script>
 </body>
 
 </html>
